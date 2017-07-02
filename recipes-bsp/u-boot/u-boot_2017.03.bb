@@ -28,7 +28,8 @@ DEFAULT_PREFERENCE_sun8i="1"
 
 SRC_URI = "git://git.denx.de/u-boot.git;branch=master \
            file://boot.cmd \
-           file://0001-sunxi-add-A20-OLinuXino-Lime2-eMMC-defconfig.patch \
+           file://U-Boot-PATCHv4-1-2-ARM-dts-sunxi-Change-node-name-for-pwrseq-pin-on-Olinuxino-lime2-emmc.patch \
+           file://U-Boot-PATCHv4-2-2-sun7i-Add-support-for-Olimex-A20-OLinuXino-LIME2-eMMC.patch \
            "
 
 SRCREV = "8537ddd769f460d7fb7a62a3dcc9669049702e51"

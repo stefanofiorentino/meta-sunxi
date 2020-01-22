@@ -31,4 +31,4 @@ UBOOT_ENTRYPOINT ?= "0x40008000"
 SPL_BINARY ?= "u-boot-sunxi-with-spl.bin"
 
 SERIAL_CONSOLE ?= "115200 ttyS0"
-MACHINE_FEATURES ?= "alsa apm keyboard rtc serial screen usbgadget usbhost vfat"
+MACHINE_FEATURES ?= "alsa apm keyboard rtc serial screen usbgadget usbhost vfat wifi bluetooth"
